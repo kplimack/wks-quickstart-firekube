@@ -13,10 +13,10 @@ items:
         apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
-          address: 10.61.0.21
+          address: 10.61.0.25
           port: 22
         public:
-          address: 10.61.0.21
+          address: 10.61.0.25
           port: 22
 - apiVersion: cluster.k8s.io/v1alpha1
   kind: Machine
@@ -31,10 +31,10 @@ items:
         apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
-          address: 10.61.0.22
+          address: 10.61.0.26
           port: 22
         public:
-          address: 10.61.0.22
+          address: 10.61.0.26
           port: 22
 - apiVersion: cluster.k8s.io/v1alpha1
   kind: Machine
@@ -49,10 +49,10 @@ items:
         apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
-          address: 10.61.0.23
+          address: 10.61.0.27
           port: 22
         public:
-          address: 10.61.0.23
+          address: 10.61.0.27
           port: 22
 - apiVersion: cluster.k8s.io/v1alpha1
   kind: Machine
@@ -67,9 +67,9 @@ items:
         apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
-          address: 10.61.0.24
+          address: 10.61.0.28
           port: 22
         public:
-          address: 10.61.0.24
+          address: 10.61.0.28
           port: 22
 kind: List
